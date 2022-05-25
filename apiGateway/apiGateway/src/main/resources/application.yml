@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: authentication
+          uri: lb://authentication
+          predicates:
+            - Path=/authentication/**
+          filters:
+            - RewritePath=/authentication/(?<segment>.*),/api/$\{segment}
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *
