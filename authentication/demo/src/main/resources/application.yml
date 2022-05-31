@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: authentication
+
+
