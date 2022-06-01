@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: account
+
+
