@@ -151,7 +151,7 @@ public class JwtAuthenticationController {
             throw new RuntimeException("Possiedi già questo email!");
         }
         if(userDTOCheckEmail != null){
-            throw new RuntimeException("Email già esistente, Scegli un altro!");
+            throw new RuntimeException("Email già esistente, scegline un'altra!");
         }
 
         userDTO.setEmail(userUpdateEmailDTO.getEmail());
