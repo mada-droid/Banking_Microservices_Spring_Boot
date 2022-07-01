@@ -183,7 +183,7 @@ public class JwtAuthenticationController {
         } catch (DisabledException e) {
             throw new Exception("USER_DISABLED", e);
         } catch (BadCredentialsException e) {
-            throw new RuntimeException("Credenziali erratess!");
+            throw new RuntimeException("Credenziali errate!");
         }
     }
 }
