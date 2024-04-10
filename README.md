@@ -13,13 +13,13 @@ The Authentication microservice is responsible for handling user authentication 
 ### 3. Transaction Microservice:
 The Transaction microservice manages all financial transactions within the banking system. It handles processes such as transferring funds between accounts, depositing and withdrawing money, and maintaining transaction history.
 
-## 4. SQL Script Management Microservice:
+## SQL Script Management Microservice:
 The SQL Script Management microservice is responsible for the creation and manipulation of SQL scripts. It provides functionality to generate and modify SQL scripts for database operations, ensuring efficient management of the banking system's data.
 
-## 5. Eureka Server:
+## Eureka Server:
 The Eureka Server is used for service registration and discovery. It improves the development process by allowing microservices to locate and communicate with each other easily, facilitating seamless integration and scalability.
 
-## 6. API Gateway:
+## API Gateway:
 The API Gateway acts as a single entry point for all client requests. It handles routing and load balancing across microservices, providing a unified interface for clients to interact with the banking system's functionalities.
 
 ## Installation and Setup:
